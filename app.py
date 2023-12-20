@@ -8,4 +8,3 @@ def dhjdhj():
         return jsonify({'answer':a+b}) 
     except:
         return jsonify({'Error':'Invalid Data'})
-app.run()
